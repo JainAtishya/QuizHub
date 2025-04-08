@@ -1,12 +1,52 @@
-# React + Vite
+# QuizHub 🎓✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+QuizHub is a feature-rich quiz application built with **React + Vite**, **TailwindCSS**, and **Firebase**. It allows students to take practice and test mode quizzes, track progress, and enables educators to manage content and view analytics.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### 👨‍🎓 Student Panel
+- ✍️ Practice Mode & Test Mode
+- 📊 Progress tracking and analytics
+- ⏱️ Timer-based quizzes
+- ⭐ Bookmark questions
+- 🔥 Streak counter
+- 🎯 Scoreboard and leaderboard
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🧑‍🏫 Admin Panel
+- ➕ Create & manage quizzes
+- 📥 View student submissions
+- 📈 Analytics dashboard
+- ⚙️ Settings & Feedback management
+
+### 🔐 Authentication
+- Firebase Authentication
+- Role-based login (Student / Admin)
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech         | Use Case                        |
+|--------------|----------------------------------|
+| **React**    | Frontend architecture           |
+| **Vite**     | Fast build tool & dev server    |
+| **Tailwind** | Utility-first styling           |
+| **Firebase** | Auth, Firestore, Hosting        |
+
+---
+
+## 📁 Project Structure
+
+```bash
+quizhub/
+├── public/                 # Static assets
+├── src/                   # App components and pages
+├── .firebase/             # Firebase config (ignored)
+├── .gitignore             
+├── package.json           
+├── tailwind.config.js     
+└── vite.config.js         
+
+
